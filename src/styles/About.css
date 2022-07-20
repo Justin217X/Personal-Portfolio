@@ -1,0 +1,41 @@
+.about {
+    /* border: solid black 1px; */
+    padding: 50px 120px;
+}
+
+.about p{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+#About {
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.skill-container {
+    border: solid white 1px;
+
+}
+
+.skill-scroller {
+    overflow: hidden;
+    display: flex;
+    /* height: 500px; */
+    margin: 0 auto;
+    border: solid white 1px;
+}
+
+.skill-scroller>img {
+    margin-left: 100px;
+    animation: slide 8s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-1200px, 0, 0); /* The image width */
+    }
+  }
