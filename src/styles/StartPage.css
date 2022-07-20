@@ -1,0 +1,28 @@
+.start-container {
+}
+
+.keepitsimple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.github {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(152deg) brightness(103%) contrast(103%);}
+
+.resume {
+    font-size: 100px;
+    font-weight: bold;
+}
