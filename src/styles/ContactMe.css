@@ -1,0 +1,33 @@
+.contactme-container {
+    padding: 50px 120px;
+}
+
+#ContactMe {
+    font-size: 50px;
+
+}
+
+.contactme {
+    display: flex;
+    background-color: white;
+    min-width: 50px;
+    max-width: 500px;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+
+}
+
+input {
+    height: 25px;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+textarea {
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid black;
+}
