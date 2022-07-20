@@ -1,0 +1,31 @@
+.beginning {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.beginning>h1 {
+    margin: 2px;
+    font-size: 75px;
+}
+
+.one {
+    padding-right: 200px;
+}
+
+.two:hover {
+    color: blue
+}
+
+.two {
+    padding-right: 130px;
+}
+
+.three {
+    padding-left: 100px;
+}
+
+.four {
+    padding-left: 220px;
+    margin-bottom: 20px;
+}
