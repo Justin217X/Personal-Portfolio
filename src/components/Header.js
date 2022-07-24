@@ -7,13 +7,16 @@ const Header = () => {
       <div className="header-left"></div>
       <div className="header-right">
         <div className="header-option">
-          <a href="#About"> About </a>
+          <a href="/"> .home() </a>
         </div>
         <div className="header-option">
-          <a href="#Projects"> Projects </a>
+          <a href="#About"> .about() </a>
         </div>
         <div className="header-option">
-          <a href="#ContactMe"> Contact Me </a>
+          <a href="#Projects"> .projects() </a>
+        </div>
+        <div className="header-option">
+          <a href="#ContactMe"> .contactMe() </a>
         </div>
       </div>
     </div>

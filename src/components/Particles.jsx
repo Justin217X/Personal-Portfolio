@@ -22,7 +22,7 @@ const Particle = () => {
     options={{
       backgroundMode: {
         enable: true,
-        zIndex: -1,
+        zIndex: 0,
       },
       background: {
         color: "",
@@ -44,7 +44,7 @@ const Particle = () => {
             distance: 400,
             duration: 0.3,
             opacity: 0.5,
-            size: 6,
+            size: 3,
             speed: 1,
           },
           grab: { distance: 400, line_linked: { opacity: 0.9 } },
@@ -59,7 +59,7 @@ const Particle = () => {
           color: "#000000",
           distance: 500,
           enable: false,
-          opacity: 0.4,
+          opacity: 0.1,
           width: 2,
         },
         move: {
@@ -72,7 +72,7 @@ const Particle = () => {
           speed: 2,
           straight: false,
         },
-        number: { density: { enable: true, area: 800 }, value: 400 },
+        number: { density: { enable: true, area: 800 }, value: 300 },
         opacity: {
           random: false,
           value: 0.5,
@@ -82,7 +82,7 @@ const Particle = () => {
         },
         size: {
           random: true,
-          value: 3,
+          value: 2,
         },
       },
       detectRetina: true,

@@ -14,7 +14,11 @@ export const StartPage = () => {
         </h1>
       </div>
       <div className="icons">
-        <a href="https://github.com/Justin217X" target={"_blank"}>
+        <a
+          href="https://github.com/Justin217X"
+          target={"_blank"}
+          rel="noreferrer"
+        >
           <img
             className="github"
             src={github}
@@ -22,12 +26,13 @@ export const StartPage = () => {
             width="100px"
           />
         </a>
-        <a href="" className="resume">
+        <a href="/" className="resume">
           Resume
         </a>
         <a
           href="https://www.linkedin.com/in/justin-hued-35208a244/"
           target={"_blank"}
+          rel="noreferrer"
         >
           <img src={linkedin} alt="Linked In Logo" width="100px" />
         </a>

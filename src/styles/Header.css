@@ -4,6 +4,8 @@
     font-size: 1.1rem;
     width: 100%;
     position: fixed;
+    color: black;
+    z-index: 2;
 }
 
 
@@ -15,4 +17,6 @@
 .header-option {
     display: flex;
     margin-right: 30px;
+    font-weight: 700;
+    font-size: large;
 }

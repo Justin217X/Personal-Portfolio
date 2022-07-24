@@ -28,7 +28,7 @@ const ContactMe = () => {
 
   return (
     <div className="contactme-container">
-      <h1 id="ContactMe">Contact Me</h1>
+      <h1 id="ContactMe"> const contactMe &nbsp;= &nbsp;(name,&nbsp;email,&nbsp;message )&nbsp; {"=>"}&nbsp;&nbsp; {"{"}</h1>
       <div className="contactme">
         <form ref={form} onSubmit={sendEmail}>
           <div>
@@ -48,6 +48,9 @@ const ContactMe = () => {
           </div>
         </form>
       </div>
+      <h1 className="close">
+        {"}"}
+      </h1>
     </div>
   );
 };

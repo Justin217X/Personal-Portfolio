@@ -2,30 +2,21 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* margin-top: 20px; */
+    z-index: 2;
 }
 
-.beginning>h1 {
+.beg-box {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.beg-box>h1 {
     margin: 2px;
     font-size: 75px;
+    justify-content: center;
 }
 
-.one {
-    padding-right: 200px;
-}
-
-.two:hover {
-    color: blue
-}
-
-.two {
-    padding-right: 130px;
-}
-
-.three {
-    padding-left: 100px;
-}
-
-.four {
-    padding-left: 220px;
-    margin-bottom: 20px;
-}

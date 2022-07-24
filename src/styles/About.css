@@ -1,6 +1,7 @@
 .about {
     /* border: solid black 1px; */
     padding: 50px 120px;
+    z-index: 2;
 }
 
 .about p{
@@ -9,26 +10,42 @@
 }
 
 #About {
-    margin-left: 20px;
     font-size: 50px;
 }
 
 .skill-container {
+    display: flex;
     border: solid white 1px;
-
+    z-index: 2;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .skill-scroller {
-    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
     display: flex;
     /* height: 500px; */
     margin: 0 auto;
-    border: solid white 1px;
+    /* border: solid black 3px; */
+    z-index: 2;
+    width: 100%;
+
+}
+
+.close {
+    font-size: 50px;
+}
+
+/* 
+.skill-scroller:hover {
+    -webkit-animation-play-state: paused;
 }
 
 .skill-scroller>img {
     margin-left: 100px;
     animation: slide 8s linear infinite;
+    z-index: 2;
 }
 
 @keyframes slide {
@@ -36,6 +53,6 @@
       transform: translate3d(0, 0, 0);
     }
     100% {
-      transform: translate3d(-1200px, 0, 0); /* The image width */
-    }
-  }
+      transform: translate3d(-1700px, 0, 0); /* The image width */
+    
+
