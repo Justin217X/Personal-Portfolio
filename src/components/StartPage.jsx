@@ -2,15 +2,16 @@ import React from "react";
 import "../styles/StartPage.css";
 import linkedin from "../images/linkedin.svg";
 import github from "../images/github.svg";
+import resume from "../images/JustinHued_FontEndDEV.pdf"
 
 export const StartPage = () => {
   return (
     <div className="start-container">
       <div className="keepitsimple">
         <h1>
-          <a href="/Portfolio"> Keep</a>
-          <a href="/Portfolio"> It</a>
-          <a href="/Portfolio"> Simple.</a>
+          <a href="/Portfolio" className="KText"> Keep</a>
+          <a href="/Portfolio" className="KText"> It</a>
+          <a href="/Portfolio" className="KText"> Simple.</a>
         </h1>
       </div>
       <div className="icons">
@@ -26,7 +27,10 @@ export const StartPage = () => {
             width="100px"
           />
         </a>
-        <a href="/" className="resume">
+        <a href={resume} className="resume"
+        target={"_blank"}
+        rel="noreferrer"
+        >
           Resume
         </a>
         <a
