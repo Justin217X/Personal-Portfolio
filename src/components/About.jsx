@@ -22,7 +22,7 @@ const About = () => {
       </p>
       <p>
         I work with React, JavaScript, HTML, and CSS to develop quaility frontend
-        products. I also have experience using NodeJS and Express.
+        products. I also have experience using NodeJS, Express, and MongoDB.
       </p>
       <div className="skill-container">
         <div className="skill-scroller">
