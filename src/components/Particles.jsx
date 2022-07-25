@@ -72,7 +72,7 @@ const Particle = () => {
           speed: 2,
           straight: false,
         },
-        number: { density: { enable: true, area: 800 }, value: 300 },
+        number: { density: { enable: true, area: 800 }, value: 150 },
         opacity: {
           random: false,
           value: 0.5,
