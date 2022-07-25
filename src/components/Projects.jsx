@@ -19,8 +19,7 @@ const Projects = () => {
           <h2>{"<div className=\"title\">"} Chat App {"</div>"}</h2>
           <p>{"<p className=\"project-desc\">"} <br />
             <div className="tab">
-              Chat App is a chat app that not only allows users to text in real
-              time, but also allows them to text in different languages<br />
+              QuadNard Chat is a chat app that allows users to text even when they are both speaking in different languages. The goal for this app is for people to text in their own respective languages and trust us to translate their message into the recipient's language. <br />
             </div>{"</p>"}
           </p>
         </div>
@@ -37,7 +36,8 @@ const Projects = () => {
           <h2> {"<div className=\"title\">"} Social Book {"</div>"}</h2>
           <p>{"<p className=\"project-desc\">"} <br />
             <div className="tab">
-              Social Book is a social media app that uses json web tokens (JWTs) to authenticate registration, login, and logout. <br />
+              Social Book is a social media app that uses the MERN stack for it's core architecture. It uses json web tokens (JWTs) to authenticate and authorize registration, login, and logout. Users are currently able to post as they please, and current efforts are pointed towards designing a friend request and messaging system. 
+              <br />
             </div>{"</p>"} 
           </p>
         </div>
@@ -54,8 +54,8 @@ const Projects = () => {
           <h2> {"<div className=\"title\">"} Youtube Clone {"</div>"}</h2>
           <p>{"<p className=\"project-desc\">"} <br />
             <div className="tab">
-            This is a youtube clone that draws upon youtube's api to watch real
-              videos<br />
+            This is a youtube clone that draws upon youtube's api to watch real videos from the original site.
+              <br />
             </div>{"</p>"} 
           </p>
         </div>
