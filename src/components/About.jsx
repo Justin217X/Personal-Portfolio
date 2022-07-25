@@ -16,12 +16,12 @@ const About = () => {
         const about &nbsp;= &nbsp;( )&nbsp; {"=>"}&nbsp;&nbsp; {"{"}
       </h1>
       <p>
-        I am a front end developer based in Pennsylvania. I prefer taking a
+        I am a front end engineer based in Pennsylvania. I prefer taking a
         divide and conquer approach when it comes to coding to ensure an
-        efficient and speedy resolution.
+        efficient and speedy resolution. I have a results-driven mentality that enables me write clean and coherent code. 
       </p>
       <p>
-        I work with React, JavaScript, HTML, and CSS to develope quaility frontend
+        I work with React, JavaScript, HTML, and CSS to develop quaility frontend
         products. I also have experience using NodeJS and Express.
       </p>
       <div className="skill-container">
